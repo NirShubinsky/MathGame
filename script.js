@@ -114,7 +114,7 @@ function scoresToDOM(){
   finalTimeEl.textContent = `${finalTimeDisplay}s`;
   updateBestScore();
   // Scroll to Top, go to score page
-  itemContainer.scrollTo({ top: 0, behavior: 'smooth'});
+  itemContainer.scrollTo({ top: 0, behavior: 'instant'});
   showScorePage();
 }
 
