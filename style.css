@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Oxanium|PT+Mono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sofia&display=swap");
 
 * {
   box-sizing: border-box;
@@ -254,6 +255,14 @@ button:active {
 
 .penalty-time {
   color: var(--danger);
+}
+
+.credits {
+  display: flex;
+  align-items: flex-end;
+  font-weight: 600;
+  font-family: sofia, cursive;
+  font-size: 1.5rem;
 }
 
 /* Media Query: Laptop */
