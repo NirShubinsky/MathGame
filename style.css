@@ -257,14 +257,6 @@ button:active {
   color: var(--danger);
 }
 
-.credits {
-  display: flex;
-  align-items: flex-end;
-  font-weight: 600;
-  font-family: sofia, cursive;
-  font-size: 1.5rem;
-}
-
 /* Media Query: Laptop */
 @media screen and (max-width: 1800px) {
   .game-container {
